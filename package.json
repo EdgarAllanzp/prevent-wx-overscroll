@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/EdgarAllanzp/prevent-wx-overscroll/issues"
   },
-  "homepage": "https://github.com/EdgarAllanzp/prevent-wx-overscroll#readme"
+  "homepage": "https://github.com/EdgarAllanzp/prevent-wx-overscroll#readme",
+  "devDependencies": {
+    "rollup-plugin-babel-minify": "^5.0.0"
+  }
 }
