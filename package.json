@@ -1,0 +1,22 @@
+{
+  "name": "prevent-wx-overscroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/preventWxOverSrcoll.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarAllanzp/prevent-wx-overscroll.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarAllanzp/prevent-wx-overscroll/issues"
+  },
+  "homepage": "https://github.com/EdgarAllanzp/prevent-wx-overscroll#readme"
+}
