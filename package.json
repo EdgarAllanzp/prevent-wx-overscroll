@@ -1,8 +1,8 @@
 {
   "name": "prevent-wx-overscroll",
-  "version": "1.0.0",
-  "description": "",
-  "main": "dist/preventWxOverSrcoll.js",
+  "main": "dist/preventWxOverScroll.js",
+  "version": "1.0.3",
+  "description": "Prevent wechat browser overscroll behavior.",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/EdgarAllanzp/prevent-wx-overscroll.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "edgarice",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EdgarAllanzp/prevent-wx-overscroll/issues"
@@ -21,5 +21,10 @@
   "homepage": "https://github.com/EdgarAllanzp/prevent-wx-overscroll#readme",
   "devDependencies": {
     "rollup-plugin-babel-minify": "^5.0.0"
+  },
+  "dependencies": {
+    "rollup-plugin-minify": "^1.0.3",
+    "rollup-plugin-uglify": "^4.0.0",
+    "rollup-plugin-sourcemaps": "^0.4.2"
   }
 }
